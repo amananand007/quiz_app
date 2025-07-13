@@ -18,7 +18,6 @@ public class QuestionController {
     @GetMapping("allQuestions")
 
         public ResponseEntity<List<Question>> getAllQuestions() {
-
             return questionService.getAllQuestions();
         }
 
